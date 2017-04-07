@@ -1,0 +1,190 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:prueba1-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "29 mar 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4011 U1
+U 2 1 58DBCA38
+P 4925 3125
+F 0 "U1" H 4925 3175 60  0000 C CNN
+F 1 "4011" H 4925 3075 60  0000 C CNN
+F 2 "" H 4925 3125 60  0000 C CNN
+F 3 "" H 4925 3125 60  0000 C CNN
+	2    4925 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 58DBCA8D
+P 1900 2400
+F 0 "R1" V 1980 2400 40  0000 C CNN
+F 1 "1K" V 1907 2401 40  0000 C CNN
+F 2 "~" V 1830 2400 30  0000 C CNN
+F 3 "~" H 1900 2400 30  0000 C CNN
+	1    1900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 58DBCB54
+P 3050 2250
+F 0 "R3" V 3130 2250 40  0000 C CNN
+F 1 "R" V 3057 2251 40  0000 C CNN
+F 2 "~" V 2980 2250 30  0000 C CNN
+F 3 "~" H 3050 2250 30  0000 C CNN
+	1    3050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58DBCB8B
+P 2250 1750
+F 0 "R2" V 2330 1750 40  0000 C CNN
+F 1 "R" V 2257 1751 40  0000 C CNN
+F 2 "~" V 2180 1750 30  0000 C CNN
+F 3 "~" H 2250 1750 30  0000 C CNN
+	1    2250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4011 U1
+U 1 1 58DBCB91
+P 4450 2450
+F 0 "U1" H 4450 2500 60  0000 C CNN
+F 1 "4011" H 4450 2400 60  0000 C CNN
+F 2 "" H 4450 2450 60  0000 C CNN
+F 3 "" H 4450 2450 60  0000 C CNN
+	1    4450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 58DBCC35
+P 1875 3175
+F 0 "D1" H 1875 3275 50  0000 C CNN
+F 1 "LED" H 1875 3075 50  0000 C CNN
+F 2 "~" H 1875 3175 60  0000 C CNN
+F 3 "~" H 1875 3175 60  0000 C CNN
+	1    1875 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MYCONN3 J1
+U 1 1 58DBD0E2
+P 3025 4200
+F 0 "J1" H 2775 3975 60  0000 C CNN
+F 1 "MYCONN3" H 3025 4350 60  0000 C CNN
+F 2 "~" H 3025 4350 60  0000 C CNN
+F 3 "~" H 3025 4350 60  0000 C CNN
+	1    3025 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 58DBD137
+P 3150 3875
+F 0 "#PWR01" H 3150 3975 30  0001 C CNN
+F 1 "VCC" H 3150 3975 30  0000 C CNN
+F 2 "" H 3150 3875 60  0000 C CNN
+F 3 "" H 3150 3875 60  0000 C CNN
+	1    3150 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58DBD1D4
+P 4550 3900
+F 0 "#PWR02" H 4550 3900 30  0001 C CNN
+F 1 "GND" H 4550 3830 30  0001 C CNN
+F 2 "" H 4550 3900 60  0000 C CNN
+F 3 "" H 4550 3900 60  0000 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+Text Label 2600 4275 0    60   ~ 0
+GROUND
+NoConn ~ 2575 4350
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 58DBD2B8
+P 4225 3900
+F 0 "#FLG03" H 4225 3995 30  0001 C CNN
+F 1 "PWR_FLAG" H 4225 4080 30  0000 C CNN
+F 2 "" H 4225 3900 60  0000 C CNN
+F 3 "" H 4225 3900 60  0000 C CNN
+	1    4225 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 58DBD2C7
+P 4550 3900
+F 0 "#FLG04" H 4550 3995 30  0001 C CNN
+F 1 "PWR_FLAG" H 4550 4080 30  0000 C CNN
+F 2 "" H 4550 3900 60  0000 C CNN
+F 3 "" H 4550 3900 60  0000 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 58DBD2D6
+P 4225 3900
+F 0 "#PWR05" H 4225 4000 30  0001 C CNN
+F 1 "VCC" H 4225 4000 30  0000 C CNN
+F 2 "" H 4225 3900 60  0000 C CNN
+F 3 "" H 4225 3900 60  0000 C CNN
+	1    4225 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 3875 3150 3875
+Wire Wire Line
+	2050 3875 2050 4250
+Wire Wire Line
+	2050 4250 2575 4250
+Text Notes 3975 3650 0    60   ~ 0
+HOLA COMO ANDAS
+$EndSCHEMATC

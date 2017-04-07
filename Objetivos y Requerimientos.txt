@@ -1,0 +1,17 @@
+El objetivo es automatizar y controlar el proceso de fabricacion de cerveza en el equipo que hay armado. Poder establecer parametros de tiempos entre cada proceso y las temperaturas para que el sistema solo sepa que hacer y cuando hacerlo.
+
+Requerimientos Funcionales
+
+-Deberia leer de 3 sensores de temperatura y 3 sensores de nivel.
+-Deberia permutar el estado de 6 electrovalvulas, 2 calentadores de resistencia, y dos motores.
+-Deberia tener modos de cocina y limpieza automaticos.
+-Deberia poder ser configurable en terminos de temperaturas, tiempos y niveles, pudiendo establecer recetas para cocinar distintos tipos de cerveza. 
+-Todos los actuadores deberian poder ser intervenidos manualmente en caso de ser necesario.
+
+
+
+Requerimientos del microcontrolador a usar:
+
+- conversor analogico digital de 8 entradas como minimo
+- minimo 10 pines GPIO configurables para logica 0 1
+- memoria flash para guardar las configuraciones
