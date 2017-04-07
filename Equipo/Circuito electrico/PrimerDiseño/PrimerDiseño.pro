@@ -1,4 +1,4 @@
-update=29/3/2017 1:08:11 p. m.
+update=7/4/2017 2:26:11 p. m.
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=E:/RepoCervecero/Equipo/Circuito electrico/librerias
+LibDir=E:/CERVEZA/BrewbrainGIT/Equipo/Circuito electrico/librerias
 NetFmtName=
 RptD_X=0
 RptD_Y=100
