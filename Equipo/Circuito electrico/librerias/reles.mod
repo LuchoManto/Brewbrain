@@ -1,0 +1,118 @@
+PCBNEW-LibModule-V1  19/4/2017 4:31:01 p. m.
+# encoding utf-8
+Units mm
+$INDEX
+RE
+RE30A
+$EndINDEX
+$MODULE RE
+Po 0 0 0 15 58F7AEDD 00000000 ~~
+Li RE
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.35 1 1 0 0.15 N V 21 N "RE"
+T1 0 14 1 1 0 0.15 N I 21 N "RELE"
+DS -7.5 5 -7.5 13 0.15 21
+DS -7.5 13 7.5 13 0.15 21
+DS 7.5 13 7.5 -1 0.15 21
+DS 7.5 -1 7.5 -5 0.15 21
+DS 7.5 -5 -7.5 -5 0.15 21
+DS -7.5 -5 -7.5 0 0.15 21
+DS -7.5 0 -7.5 5 0.15 21
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -4
+$EndPAD
+$PAD
+Sh "13" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.5 10
+$EndPAD
+$PAD
+Sh "14" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.5 10
+$EndPAD
+$PAD
+Sh "15" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.5 -2
+$EndPAD
+$PAD
+Sh "16" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.5 -2
+$EndPAD
+$EndMODULE RE
+$MODULE RE30A
+Po 0 0 0 15 58F7BAD2 00000000 ~~
+Li RE30A
+Sc 0
+AR 
+Op 0 0 0
+T0 4 -17 1 1 0 0.15 N V 21 N "RE30A"
+T1 2 16.5 1 1 0 0.15 N V 21 N "RELE"
+DS 11 15.5 11 2.1 0.15 21
+DS 13.7 1.5 13.7 2.1 0.15 21
+DS 13.7 2.1 11 2.1 0.15 21
+DS -9 15.5 -9 16.3 0.15 21
+DS -9 16.3 11 16.3 0.15 21
+DS 11 16.3 11 15.5 0.15 21
+DS -9 -0.5 -9 -2.9 0.15 21
+DS -14 -3.5 -14 -2.9 0.15 21
+DS -14 -2.9 -9 -2.9 0.15 21
+DS 13.7 -15.5 13.7 1.5 0.15 21
+DS 13 -15.5 13.7 -15.5 0.15 21
+DS -9 15.5 -9 -0.5 0.15 21
+DS -14 -3.5 -14 -15.5 0.15 21
+DS -14 -15.5 0 -15.5 0.15 21
+DS 0 -15.5 13 -15.5 0.15 21
+$PAD
+Sh "20" O 2.7 1.7 0 0 0
+Dr 2.2 0 0 O 2.2 1.2
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 -12.5
+$EndPAD
+$PAD
+Sh "21" O 2.7 1.7 0 0 0
+Dr 2.2 0 0 O 2.2 1.2
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 -4.9
+$EndPAD
+$PAD
+Sh "22" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.2 10.3
+$EndPAD
+$PAD
+Sh "23" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 10.3
+$EndPAD
+$PAD
+Sh "24" C 2 2 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.8 -2.4
+$EndPAD
+$EndMODULE RE30A
+$EndLIBRARY
